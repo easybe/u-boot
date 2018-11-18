@@ -306,14 +306,14 @@
 			reg = <0x00000000 0x000d0000>; /* 832KB */
 		};
 
-		partition@c0000 { /* uImage */
+		partition@d0000 { /* uImage */
 			label = "zImage";
-			reg = <0x000d0000 0x002d0000>; /* 2880KB */
+			reg = <0x000d0000 0x003b0000>; /* 3776KB */
 		};
 
-		partition@3a0000 { /* uInitramfs */
+		partition@480000 { /* uInitramfs */
 			label = "rd.gz";
-			reg = <0x003a0000 0x00430000>; /* 4250KB */
+			reg = <0x00480000 0x00350000>; /* 3392KB */
 		};
 
 		partition@7d0000 { /* MAC address and serial number */
