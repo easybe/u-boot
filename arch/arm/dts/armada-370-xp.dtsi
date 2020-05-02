@@ -284,6 +284,7 @@
 			interrupts = <30>;
 			clocks = <&coreclk 0>;
 			status = "disabled";
+			u-boot,dm-pre-reloc;
 		};
 
 		spi1: spi@10680 {
