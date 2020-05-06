@@ -1,0 +1,9 @@
+// SPDX-License-Identifier: GPL-2.0+
+
+/ {
+	soc {
+		internal-regs {
+			u-boot,dm-pre-reloc;
+		};
+	};
+};
